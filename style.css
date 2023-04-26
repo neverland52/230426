@@ -1,0 +1,280 @@
+@charset "UTF-8";
+* {
+  font-family: 黑體;
+}
+/*----------------*/
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+  width: 400px;
+  height: 600px;
+}
+
+.swiper-slide {
+  border-radius: 5px;
+}
+/*-----------------*/
+
+/*-----------第一張------------*/
+.swiper-slide:nth-child(1n) {
+  background-color: #F6DFD6;
+}
+.square {
+  width: 320px;
+  height: 170px;
+  background-color: #63BBB9;
+  position: relative;
+  left: 26px;
+  top: 27px;
+}
+.circle {
+  width: 73px;
+  height: 73px;
+  background-color: #8BD8CF;
+  position: relative;
+  left: 320px;
+  top: 345px;
+  border-radius: 50%;
+}
+.top {
+  width: 341px;
+  height: 385px;
+  background-image: url("../img/me.jpg");
+  background-size: cover;
+  position: relative;
+  left: 60px;
+  top: -190px;
+}
+.name {
+  position: relative;
+  right: -70px;
+  top: -200px;
+  font-size: 37px;
+  letter-spacing: 25px;
+  color: #847F7A;
+}
+.number {
+  position: relative;
+  right: -160px;
+  top: -220px;
+  font-size: 33px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  color: #847F7A;
+}
+
+
+/*-----------第二張------------*/
+
+.swiper-slide:nth-child(2n) {
+  background-color: #CEC9D7
+}
+.pic1 {
+  width: 388px;
+  height: 217px;
+  background-image: url("../img/風景1.jpg");
+  background-size: cover;
+  margin: 8px;
+  /* position: relative;
+  left: 5px;
+  top: 5px; */
+}
+.pic2 {
+  width: 388px;
+  height: 217px;
+  background-image: url("../img/風景2.jpg");
+  background-size: cover;
+  position: relative;
+  left: 8px;
+}
+.text2 {
+  position: relative;
+  right: -20px;
+  top: 25px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  line-height:  2.0;
+  color: #353F60;
+}
+
+
+/*-----------第三張------------*/
+
+.swiper-slide:nth-child(3n) {
+  background-color: #EBEAE3
+}
+.pic4 {
+  width: 259px;
+  height: 389px;
+  background-image: url("../img/人2.jpg");
+  background-size: cover;
+  position: relative;
+  left: 8px;
+  top: 205px;
+}
+.pic3 {
+  width: 359px;
+  height: 240px;
+  background-image: url("../img/人1.jpg");
+  background-size: cover;
+  position: relative;
+  left: 32px;
+  top: -380px;
+}
+.text3 {
+  writing-mode: vertical-lr;
+  position: relative;
+  right: -315px;
+  top: -320px;
+  font-size: 20px;
+  letter-spacing: 5px;
+  color: #5B5B5A;
+}
+
+/*-----------第四張------------*/
+
+.swiper-slide:nth-child(4n) {
+  background-color: #D7ECFF;
+}
+.pic8 {
+  width: 430px;
+  height: 219px;
+  background-image: url("../img/bike2.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 0px;
+  top: 11px;
+}
+.pic9 {
+  width: 349px;
+  height: 262px;
+  background-image: url("../img/bike1.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 34px;
+  top: 235px;
+}
+.text7 {
+  position: absolute;
+  left: 72px;
+  top: 515px;
+  font-size: 15px;
+  color: #000;
+}
+
+/*-----------第五張------------*/
+
+.swiper-slide:nth-child(5n) {
+  background-color: #EBEAE3;
+}
+.pic7{
+  width: 388px;
+  height: 272px;
+  background-image: url("../img/心理學.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 6px;
+  top: 14px;
+}
+.text6 {
+  position: absolute;
+  left: 25px;
+  top: 306px;
+  font-size: 15px;
+  color: #000;
+}
+
+/*-----------第六張------------*/
+
+.swiper-slide:nth-child(6n) {
+  background-color: #F6DFD6;
+}
+.square2 {
+  width: 102px;
+  height: 71px;
+  background-color: #BCBAB7;
+  position: relative;
+  left: 11px;
+  top: 26px;
+}
+.circle2 {
+  width: 110px;
+  height: 110px;
+  background-color: #D295BF;
+  position: absolute;
+  left: 224px;
+  top: 300px;
+  border-radius: 50%;
+}
+.pic5 {
+  width: 379px;
+  height: 213px;
+  background-image: url("../img/moto.jpg");
+  background-size: cover;
+  position: absolute;
+  left: 21px;
+  top: 76px;
+}
+
+.pic6 {
+  width: 378px;
+  height: 212px;
+  background-image: url("../img/idle.png");
+  background-size: cover;
+  position: absolute;
+  right: 22px;
+  top: 374px;
+}
+
+.text4 {
+  position: absolute;
+  left: 33px;
+  top: 37px;
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: #5B5B5A;
+}
+
+.text5 {
+  position: absolute;
+  right: 88px;
+  top: 332px;
+  font-size: 20px;
+  letter-spacing: 6px;
+  color: #5B5B5A;
+}
+
