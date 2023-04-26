@@ -116,7 +116,7 @@ body {
 .pic2 {
   width: 388px;
   height: 217px;
-  background-image: url("../img/風景2.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/風景2.JPG?raw=true);
   background-size: cover;
   position: relative;
   left: 8px;
@@ -140,7 +140,7 @@ body {
 .pic4 {
   width: 259px;
   height: 389px;
-  background-image: url("../img/人2.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/人2.JPG?raw=true);
   background-size: cover;
   position: relative;
   left: 8px;
@@ -149,7 +149,7 @@ body {
 .pic3 {
   width: 359px;
   height: 240px;
-  background-image: url("../img/人1.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/人1.jpg?raw=true);
   background-size: cover;
   position: relative;
   left: 32px;
@@ -173,7 +173,7 @@ body {
 .pic8 {
   width: 430px;
   height: 219px;
-  background-image: url("../img/bike2.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/bike2.jpg?raw=true);
   background-size: cover;
   position: absolute;
   left: 0px;
@@ -182,7 +182,7 @@ body {
 .pic9 {
   width: 349px;
   height: 262px;
-  background-image: url("../img/bike1.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/bike1.jpg?raw=true);
   background-size: cover;
   position: absolute;
   left: 34px;
@@ -204,7 +204,7 @@ body {
 .pic7{
   width: 388px;
   height: 272px;
-  background-image: url("../img/心理學.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/心理學.jpg?raw=true);
   background-size: cover;
   position: absolute;
   left: 6px;
@@ -243,7 +243,7 @@ body {
 .pic5 {
   width: 379px;
   height: 213px;
-  background-image: url("../img/moto.jpg");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/moto.jpg?raw=true);
   background-size: cover;
   position: absolute;
   left: 21px;
@@ -253,7 +253,7 @@ body {
 .pic6 {
   width: 378px;
   height: 212px;
-  background-image: url("../img/idle.png");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/idle.png?raw=true);
   background-size: cover;
   position: absolute;
   right: 22px;
