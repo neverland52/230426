@@ -106,7 +106,7 @@ body {
 .pic1 {
   width: 388px;
   height: 217px;
-  background-image: url("https://github.com/neverland52/230426_img/blob/main/風景1.jpg?raw=true");
+  background-image: url(https://github.com/neverland52/230426_img/blob/main/風景1.jpg?raw=true);
   background-size: cover;
   margin: 8px;
   /* position: relative;
